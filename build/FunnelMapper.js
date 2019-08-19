@@ -51,5 +51,5 @@ var FunnelMapper = /** @class */ (function () {
 }());
 exports.FunnelMapper = FunnelMapper;
 function parseUTCIntoDateString(timestamp) {
-    return Math.floor(timestamp / 10);
+    return Math.floor(timestamp / 100);
 }

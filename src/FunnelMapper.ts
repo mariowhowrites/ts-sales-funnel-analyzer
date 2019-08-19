@@ -59,5 +59,5 @@ export class FunnelMapper<T> {
 }
 
 function parseUTCIntoDateString(timestamp: number): number {
-  return Math.floor(timestamp / 10)
+  return Math.floor(timestamp / 100)
 }
