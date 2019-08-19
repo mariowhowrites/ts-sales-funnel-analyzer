@@ -27,7 +27,7 @@ var Stringer = /** @class */ (function () {
                     if (Number.isNaN(totalConversions)) {
                         totalConversions = 0;
                     }
-                    conversionString = conversionString + "Final Conversion: " + totalConversions + "\n%";
+                    conversionString = conversionString + "Final Conversion: " + totalConversions + "%\n";
                 }
             });
         });
