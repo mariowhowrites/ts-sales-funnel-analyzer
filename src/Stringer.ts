@@ -33,7 +33,7 @@ export abstract class Stringer {
             totalConversions = 0
           }
 
-          conversionString = `${conversionString}Final Conversion: ${totalConversions}\n%`
+          conversionString = `${conversionString}Final Conversion: ${totalConversions}%\n`
         }
       })
     })
