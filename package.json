@@ -8,7 +8,8 @@
     "typescript": "^3.5.3"
   },
   "scripts": {
-    "start": "tsc && node build/index.js",
+    "start-ts": "tsc && node build/index.js",
+    "start": "node build/index.js",
     "enum": "tsc && node build/enum.js"
   }
 }
