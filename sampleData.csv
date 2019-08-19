@@ -1,0 +1,8 @@
+SESSION_ID, TIMESTAMP, ACTION
+12341323, 123, 'product_view'
+12341323, 126, 'purchase_click'
+12344234, 130, 'product_view'
+12341323, 140, 'purchase_credit_card'
+12344234, 150, 'purchase_click'
+12341323, 180, 'purchase_complete'
+12341325, 190, 'purchase_click'

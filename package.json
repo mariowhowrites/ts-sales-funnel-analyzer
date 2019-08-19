@@ -1,0 +1,13 @@
+{
+  "name": "funnel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^12.7.2"
+  },
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "enum": "tsc && node build/enum.js"
+  }
+}
