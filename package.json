@@ -4,7 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^12.7.2"
+    "@types/node": "^12.7.2",
+    "typescript": "^3.5.3"
   },
   "scripts": {
     "start": "tsc && node build/index.js",
